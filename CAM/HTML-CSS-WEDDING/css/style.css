@@ -597,6 +597,7 @@ h5{
 }
 .fa-angle{
 	margin-right: 10px;
+	color: #FF0000;
 }
 
 @media(max-width: 767px){
