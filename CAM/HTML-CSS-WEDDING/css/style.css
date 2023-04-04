@@ -32,6 +32,8 @@ h1{
 	font-family: 'Dancing Script', cursive;
 	margin-right: -52px;
 	padding-top: 10px;
+	position: relative;
+	z-index: 1;
 }
 h2{
 	font-family: 'Dancing Script', cursive;
@@ -230,7 +232,8 @@ h5{
 .list-coutdown .item{
 	border-right: 2px solid gray;
 	font-family: 'Playball', cursive;
-	margin-right: 60px;
+	margin-right: 20px;
+	padding-right: 50px;
 }
 .list-coutdown .item:last-child{
 	border-right: none;
@@ -376,6 +379,16 @@ h5{
 	margin: 0 0 20px 30px;
 	display: flex;
 	flex-direction: column;
+}
+.list-images .item-image a{
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.list-images .item-image a img{
+	height: 100%;
 }
 .list-images{
 	flex-wrap: wrap;
