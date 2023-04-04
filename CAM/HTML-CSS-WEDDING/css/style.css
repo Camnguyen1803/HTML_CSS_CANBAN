@@ -79,7 +79,7 @@ h5{
 	animation: fadeInDown 5s;
 	animation-fill-mode: forwards;
 }
-@-webkit-keyframes fadeInDown {
+@keyframes fadeInDown {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -91,6 +91,10 @@ h5{
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+}
+.animate__fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 .top-header{
 	background-color: #E6E6FA;
