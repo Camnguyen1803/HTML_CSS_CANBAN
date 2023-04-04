@@ -166,7 +166,9 @@ h5{
 .list-child-menu .item-child-menu{
 	padding: 10px 25px;
 }
-
+.list-child-menu .item-child-menu i{
+	margin-right: 10px;
+}
 .list-images-happy-couple{
 	display: flex;
 	justify-content: center;
