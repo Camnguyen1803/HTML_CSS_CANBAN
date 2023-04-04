@@ -66,8 +66,20 @@ h5{
 	color: #f08080;
 }
 .sec-banner{
-	display: flex;
-	flex-direction: column;
+/* 	display: flex;
+	flex-direction: column; */
+}
+.sec-banner{
+	width: 100%;
+	height: 500px;
+	animation: AmanitionBanner 5s infinite;
+}
+@keyframes AmanitionBanner {
+  0%   {top: 0px; left: 0px; background-image: url('../images/banner11.jpeg');}
+  25%  {top: 0px; left: 0px; background-image: url('../images/banner14.jpeg');}
+  50%  {top: 0px; left: 0px; background-image: url('../images/banner16.jpeg');}
+  75%  {top: 0px; left: 0px; background-image: url('../images/banner11.jpeg');}
+  100% {top: 0px; left: 0px; background-image: url('../images/banner14.jpeg');}
 }
 .top-header{
 	background-color: #E6E6FA;
