@@ -230,6 +230,7 @@ h5{
 .list-coutdown .item{
 	border-right: 2px solid gray;
 	font-family: 'Playball', cursive;
+	margin-right: 60px;
 }
 .list-coutdown .item:last-child{
 	border-right: none;
@@ -588,6 +589,7 @@ h5{
 .title-address .item-address{
 	margin: 10px 40px;
 	font-family: 'Playball', cursive;
+	font-size: 17px;
 }
 .list-address .item-address p:hover{
 	color: #FF6A6A;
