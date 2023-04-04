@@ -65,6 +65,10 @@ h5{
 .fa-anggle{
 	color: #f08080;
 }
+.sec-banner{
+	display: flex;
+	flex-direction: column;
+}
 .top-header{
 	background-color: #E6E6FA;
 }
