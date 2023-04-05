@@ -479,8 +479,8 @@ h5{
 	width: calc(100% * (1/2) - 30px);
 	margin: 0 0 20px 30px;
 	display: flex;
-	flex-direction: column;
-	
+/* 	flex-direction: column; */
+	flex-wrap: nowrap;
 }
 .list-images-our-bridesmaid{
 	flex-wrap: wrap;
