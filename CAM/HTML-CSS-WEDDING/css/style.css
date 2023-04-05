@@ -201,8 +201,6 @@ h5{
 	left: 20px;
 	padding-top: 20px;
 	box-sizing: border-box;
-	height: 300px;
-	width: 300px;
 	display: none;
 	z-index: 9999999999; 
 }
