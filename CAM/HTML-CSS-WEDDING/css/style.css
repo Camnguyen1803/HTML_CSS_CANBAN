@@ -204,6 +204,12 @@ h5{
 	display: none;
 	z-index: 9999999999; 
 }
+.list-child-menu .item-child-menu{
+	width: calc(100% * (1/2) - 30px);
+	margin: 0 0 20px 30px;
+	display: flex;
+	flex-direction: column
+}
 .list-menu .item-menu:hover .wrap-dropdown-menu,
 .list-menu .item-menu a:hover + .wrap-dropdown-menu{
 	display: block;
