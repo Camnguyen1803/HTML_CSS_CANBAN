@@ -129,6 +129,9 @@ h5{
 .top-header{
 	background-color: #E6E6FA;
 }
+.wrap-logo-menu{
+	justify-content: space-between;
+}
 .logo{
 	padding: 35px;
 	margin-left: 50px;
