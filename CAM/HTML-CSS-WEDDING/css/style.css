@@ -197,6 +197,7 @@ h5{
 .list-menu .item-menu a{
 	color: black;
 }
+/* child-menu */
 .wrap-dropdown-menu{
 	background-color: #E6E6FA;
 	position: absolute;
@@ -213,6 +214,7 @@ h5{
 	width: calc(100% * (1/2) - 30px);
 	margin: 0 0 20px 30px;
 }
+/* end child-menu */
 .list-menu .item-menu:hover .wrap-dropdown-menu,
 .list-menu .item-menu a:hover + .wrap-dropdown-menu{
 	display: block;
