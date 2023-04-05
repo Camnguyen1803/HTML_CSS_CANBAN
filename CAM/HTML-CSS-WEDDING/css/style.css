@@ -60,7 +60,7 @@ h5{
 }
 .flexbox{
 	display: flex;
-	justify-content: space-between;	
+/* 	justify-content: space-between;	 */
 }
 .fa-anggle{
 	color: #f08080;
@@ -227,9 +227,6 @@ h5{
 }
 .list-child-menu .item-child-menu a:hover{
 	color: #FF4500;
-}
-.list-child-menu .item-child-menu{
-	padding: 10px 25px;
 }
 .list-child-menu .item-child-menu i{
 	margin-right: 10px;
