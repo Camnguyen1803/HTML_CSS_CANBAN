@@ -682,15 +682,6 @@ h5{
 .wrap-title-general{
 	padding: 60px 110px;
 }
-.item-address .title-address .content-address{
-	padding: 20px;
-}
-.item-address .content-address,
-.title-address .item-address{
-	margin: 10px 40px;
-	font-family: 'Playball', cursive;
-	font-size: 17px;
-}
 .list-address{
 	justify-content: space-between;
 }
@@ -701,6 +692,15 @@ h5{
 	font-style: italic;
 	color:#f08080;
 	font-size:30px;
+}
+.item-address .title-address .content-address{
+	padding: 20px;
+}
+.item-address .content-address,
+.title-address .item-address{
+	margin: 10px 40px;
+	font-family: 'Playball', cursive;
+	font-size: 17px;
 }
 .fa-icon{
 	margin-right: 10px;
