@@ -20,6 +20,7 @@ ul ,ol{
 }
 img{
 	width: 100%;
+	max-width: 100%;
 }
 a{
 	text-decoration: none;
@@ -59,72 +60,10 @@ h5{
 }
 .flexbox{
 	display: flex;
-/* 	justify-content: space-between;	 */
 }
 .fa-anggle{
 	color: #f08080;
 }
-.sec-banner{
-/* 	display: flex;
-	flex-direction: column; */
-}
-.sec-banner{
-/* 	display: flex; */
-/* 	flex-direction: column; */
-}
-.sec-banner img{
-/* 	width: 100%; */
-/* 	height: 500px; */
-}
-/* Fading exits */
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-.animate__fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
-}
-@-webkit-keyframes fadeOutDown {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
-@keyframes fadeOutDown {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
-/* .animate__fadeOutDown { */
-  -webkit-animation-name: fadeOutDown;
-  animation-name: fadeOutDown;
-/* } */
 .top-header{
 	background-color: #E6E6FA;
 }
@@ -593,22 +532,28 @@ h5{
 .parallax-banner-3{
 		/* The image used */
   background-image: url("../images/banner11.jpeg");
-}.parallax-banner-4{
+}
+.parallax-banner-4{
 		/* The image used */
   background-image: url("../images/banner8.jpg");
-}.parallax-banner-5{
+}
+.parallax-banner-5{
 		/* The image used */
   background-image: url("../images/banner7.jpg");
-}.parallax-banner{
+}
+.parallax-banner{
 		/* The image used */
   background-image: url("../images/banner14.jpg");
-}.parallax-banner-2{
+}
+.parallax-banner-2{
 		/* The image used */
   background-image: url("../images/story-15.jpg");
-}.parallax-banner-7{
+}
+.parallax-banner-7{
 		/* The image used */
   background-image: url("../images/banner17.jpg");
-}.parallax-banner-8{
+}
+.parallax-banner-8{
 		/* The image used */
   background-image: url("../images/banner9.jpg");
 }
