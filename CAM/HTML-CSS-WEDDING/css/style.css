@@ -30,7 +30,6 @@ h1{
 	color: #f08080; 
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
-	margin-right: -52px;
 	padding-top: 10px;
 	position: relative;
 	z-index: 1;
@@ -70,12 +69,12 @@ h5{
 	flex-direction: column; */
 }
 .sec-banner{
-	display: flex;
-	flex-direction: column;
+/* 	display: flex; */
+/* 	flex-direction: column; */
 }
 .sec-banner img{
-	width: 100%;
-	height: 500px;
+/* 	width: 100%; */
+/* 	height: 500px; */
 }
 /* Fading exits */
 @-webkit-keyframes fadeOut {
@@ -122,10 +121,10 @@ h5{
     transform: translate3d(0, 100%, 0);
   }
 }
-.animate__fadeOutDown {
+/* .animate__fadeOutDown { */
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
-}
+/* } */
 .top-header{
 	background-color: #E6E6FA;
 }
@@ -145,9 +144,6 @@ h5{
 	color: #f08080;
 	font-family: 'Playfair Display', serif;
 }
-.fa-ring{
-	color: yellow;
-}
 /* Trái tim trắng-hồng */
 .fa-heart-pink{
 	color: #f08080;
@@ -159,13 +155,21 @@ h5{
 .heart .fa-heart{
 	font-size: 30px;
 }
+.fa-down-head{
+	font-size: 24px;
+	color: #f08080;
+	position: absolute;
+	top: 30%;
+	left: 48%;
+	margin-left: 10px;
+}
 .parallax-banner-9{
 	position: relative;
 }
 .heart{
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 48%;
 	margin: -187px 0;
 }
 /* end trái tim trắng-hồng */
@@ -174,7 +178,6 @@ h5{
 	z-index: 1;
 	text-align: center;
 	padding: 50px;
-	margin-left: 50px;
 	font-family: 'Playball', cursive;
 	font-size: 20px;
 	color: #f08080;
@@ -617,6 +620,14 @@ h5{
 			/* The image used */
   background-image: url("../images/thank-you-banner.jpg");
 }
+.parallax-banner-11{
+			/* The image used */
+  background-image: url("../images/beach-banner.jpg");
+}
+.parallax-banner-12{
+			/* The image used */
+  background-image: url("../images/mountain-banner.jpg");
+}
 .overlay{
 	position: absolute;
 	height: 100%;
@@ -632,37 +643,38 @@ h5{
 	overflow: hidden;
 }
 .list-images-happy-couple .item-images-happy-couple img:hover{
-	transform: scale(1.3);
+	transform: scale(1.1);
 	transition: ease all 0.8s;
 }
 .list-our-story .item-our-story{
 	overflow: hidden;
 }
 .list-our-story .item-our-story img:hover{
-	transform: scale(1.3);
+	transform: scale(1.1);
 	transition: ease all 0.8s;
 }
 .list-images .item-image{
 	overflow: hidden;
 }
 .list-images .item-image img:hover{
-	transform: scale(1.3);
+	transform: scale(1.2);
 	transition: ease all 0.8s;
 }
 .list-images-our-bridesmaid .item-image-our-bridesmaid img:hover{
-	transform: scale(1.3);
+	transform: scale(1.1);
 	transition: ease all 0.8s;
 }
 .list-images-our-bridesmaid .item-image-our-bridesmaid{
 		overflow: hidden;
 }
 .list-images-gift-registry .item-images-gift-registry img:hover{
-	transform: scale(1.3);
+	transform: scale(1.1);
 	transition: ease all 0.8s
 }
 .list-images-gift-registry .item-images-gift-registry{
 	overflow: hidden;
 }
+
 /* kết thúc hover img */
 .icon-head{
 	width: 200%;
@@ -679,8 +691,16 @@ h5{
 	font-family: 'Playball', cursive;
 	font-size: 17px;
 }
+.list-address{
+	justify-content: space-between;
+}
 .list-address .item-address p:hover{
 	color: #FF6A6A;
+}
+.list-address .item-address .title-address{
+	font-style: italic;
+	color:#f08080;
+	font-size:30px;
 }
 .fa-icon{
 	margin-right: 10px;
@@ -690,6 +710,11 @@ h5{
 	margin-right: 10px;
 	color: #FF0000;
 }
+.heart-end{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	margin-left: 70px;
 
 @media(max-width: 767px){
 	.row{
