@@ -83,6 +83,9 @@ h5{
 	color: #f08080;
 	font-family: 'Playfair Display', serif;
 }
+.fa-snow{
+	color: #d03e63;
+}
 /* Trái tim trắng-hồng */
 .fa-heart-pink{
 	color: #f08080;
@@ -384,11 +387,16 @@ h5{
 .info-story{
 	padding-top: 250px;
 }
+.end-married .thame-color3{
+	color: #f08080;
+	font-size: 30px;
+	font-family: 'Playball', cursive;
+	margin-left: 340px;
+}
 .end-married .thame-color4{
 	color: #f08080;
-}
-.end-married .item-end-married{
-	font-size: 30px;	
+	font-size: 30px;
+	font-family: 'Playball', cursive;
 }
 .list-images .item-image{
 	width: calc(100% * (1/3) - 30px);
@@ -506,6 +514,7 @@ h5{
 	transition: ease all 0.3s;
 }
 /* end nút submit */
+
 /* bắt đầu ẩn banne */
 .parallax{
 	position: relative;
@@ -520,55 +529,55 @@ h5{
 }
 .parallax-banner-1{
 		/* The image used */
-  background-image: url("../images/banner15.jpg");
-}
-.parallax-banner-6{
-		/* The image used */
-  background-image: url("../images/banner16.jpg");
-}
-.parallax-banner-3{
-		/* The image used */
-  background-image: url("../images/banner11.jpeg");
-}
-.parallax-banner-4{
-		/* The image used */
-  background-image: url("../images/banner8.jpg");
-}
-.parallax-banner-5{
-		/* The image used */
-  background-image: url("../images/banner7.jpg");
-}
-.parallax-banner{
-		/* The image used */
-  background-image: url("../images/banner14.jpg");
+  background-image: url("../images/banner-1.jpg");
 }
 .parallax-banner-2{
 		/* The image used */
-  background-image: url("../images/story-15.jpg");
+  background-image: url("../images/banner-2.jpg");
+}
+.parallax-banner-3{
+		/* The image used */
+  background-image: url("../images/banner-3.jpeg");
+}
+.parallax-banner-4{
+		/* The image used */
+  background-image: url("../images/banner-4.jpg");
+}
+.parallax-banner-5{
+		/* The image used */
+  background-image: url("../images/banner-5.jpg");
+}
+.parallax-banner-6{
+		/* The image used */
+  background-image: url("../images/banner-6.jpg");
 }
 .parallax-banner-7{
 		/* The image used */
-  background-image: url("../images/banner17.jpg");
+  background-image: url("../images/banner-7.jpg");
 }
 .parallax-banner-8{
 		/* The image used */
-  background-image: url("../images/banner9.jpg");
+  background-image: url("../images/banner-8.jpg");
 }
 .parallax-banner-9{
-		/* The image used */
-  background-image: url("../images/banner-head3.jpg");
+			/* The image used */
+  background-image: url("../images/banner-9.jpg");
 }
 .parallax-banner-10{
 			/* The image used */
-  background-image: url("../images/thank-you-banner.jpg");
+  background-image: url("../images/banner-10.jpg");
 }
 .parallax-banner-11{
-			/* The image used */
-  background-image: url("../images/beach-banner.jpg");
+		/* The image used */
+  background-image: url("../images/banner-11.jpg");
 }
 .parallax-banner-12{
+		/* The image used */
+  background-image: url("../images/banner-12.jpg");
+}
+.parallax-banner-13{
 			/* The image used */
-  background-image: url("../images/mountain-banner.jpg");
+  background-image: url("../images/banner-13.jpg");
 }
 .overlay{
 	position: absolute;
@@ -657,6 +666,9 @@ h5{
 	top: 25%;
 	left: 50%;
 	margin-left: 70px;
+}
+.fa-heart-end{
+	font-size: 100px;
 }
 @media(max-width: 767px){
 	.row{
